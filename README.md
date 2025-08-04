@@ -1,6 +1,6 @@
-# 🛡️ Phishing Email Incident Report
+#  Phishing Email Incident Report
 
-## 📌 Overview
+##  Overview
 
 **Incident Type:** Phishing Attempt  
 **Reported Date:** July 25, 2025  
@@ -18,17 +18,17 @@
 | **Recipient** | user@example.com                        |
 | **Subject** | Unusual Login Attempt Detected           |
 | **Date**    | Thu, 25 Jul 2025 09:14:29 -0700          |
-| **Link**    | `https://secure-paypal-update.com/login` |
+| **Link**    | <https://secure-paypal-update.com/login> |
 
 ---
 
-## 🔍 Initial Observation
+##  Initial Observation
 
 The email mimicked a legitimate PayPal security notification, warning the recipient of an "unauthorized login attempt" and urging them to click on a URL to verify their identity. The message included urgent language and branding to trick the user into interacting with the link.
 
 ---
 
-## 🔎 Analysis
+##  Analysis
 
 ### 1. **Header Review**  
 - **Sender domain:** `paypalsecure-email.com` (spoofed)  
@@ -57,7 +57,7 @@ The email mimicked a legitimate PayPal security notification, warning the recipi
 
 ---
 
-## 🧠 Indicators of Compromise (IOCs)
+##  Indicators of Compromise (IOCs)
 
 | Type        | Value                              |
 |-------------|-------------------------------------|
@@ -68,7 +68,7 @@ The email mimicked a legitimate PayPal security notification, warning the recipi
 
 ---
 
-## 🚨 Risk Assessment
+##  Risk Assessment
 
 | Risk Factor           | Value           |
 |------------------------|----------------|
@@ -79,7 +79,7 @@ The email mimicked a legitimate PayPal security notification, warning the recipi
 
 ---
 
-## 🛠️ Recommended Actions
+##  Recommended Actions
 
 1. **Block Domain/IP**:
    - Block `secure-paypal-update.com` at DNS/firewall level
@@ -99,20 +99,3 @@ The email mimicked a legitimate PayPal security notification, warning the recipi
 
 ---
 
-## ✅ Conclusion
-
-This was a well-crafted phishing email impersonating PayPal, with a goal of harvesting user credentials. Due to early detection and proper analysis, no user impact occurred.
-
-Preventive measures and user education remain crucial to defending against such attacks in the future.
-
----
-
-## 👤 Analyst
-
-**Ajao Ibrahim Adewale**  
-Trainee SOC Analyst  
-Google Cybersecurity Certificate Graduate  
-📧 your.email@example.com  
-🔗 [github.com/yourusername](https://github.com/yourusername)
-
----
